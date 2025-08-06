@@ -5,7 +5,7 @@ import json
 
 # Carrega a variável de ambiente
 load_dotenv()
-token = os.getenv("TINY_API_TOKEN")
+token = os.getenv("TINY_API_TOKEN_SP")
 
 # Parâmetros de teste
 data_inicial = "01/01/2022"

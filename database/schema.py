@@ -7,6 +7,7 @@ def criar_tabela_pedidos():
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS pedidos_cancelados (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            empresa TEXT,
             numero_pedido_tiny TEXT,
             data_venda TEXT,
             nome_cliente TEXT,
