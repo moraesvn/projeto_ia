@@ -1,4 +1,4 @@
-from api.pedidos import buscar_pedidos
+from funcoes_api.pedidos import buscar_pedidos
 from dotenv import load_dotenv
 import os
 import json
